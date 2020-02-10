@@ -40,3 +40,5 @@ Requisitos:
 
 ### Arquitetura
 
+![](images/architecture.png)
+

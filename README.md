@@ -16,6 +16,7 @@
 
 # Listagem de Livros
 
+- Faça um fork deste repositorio, assim que finalizar o desafio realize o pull request.
 
 Requisitos:
 

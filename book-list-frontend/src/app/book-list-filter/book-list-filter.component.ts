@@ -9,8 +9,8 @@ import {BookFilterService} from '../services/book-filter.service';
 })
 export class BookListFilterComponent {
     filterValues = new FormGroup({
-        title: new FormControl('A torre de ouro'),
-        author: new FormControl('Cassandra'),
+        title: new FormControl(''),
+        author: new FormControl(''),
         isbn: new FormControl('')
     });
 

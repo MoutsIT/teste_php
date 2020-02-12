@@ -1,0 +1,22 @@
+<div class="container card mt-4 mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center">
+                <img class="img-fluid"
+                     style="max-height: 500px"
+                     [src]="book.images.extralarge || book.images.large || book.images.medium || book.images.small || book.images.thumbnail"
+                     [alt]="book.title">
+            </div>
+
+            <div class="col-md-6">
+                <h1 class="h2">{{ book.title }}</h1>
+                <p><strong>Autor: </strong>{{ book.author }}</p>
+                <p><strong>Editora: </strong>{{ book.publisher }}</p>
+                <p>{{ book.description }}</p>
+                <p><strong>Ano: </strong>{{ book.year }}</p>
+                <p><strong>Número de páginas: </strong>{{ book.pageCount }}</p>
+                <p><strong>ISBN: </strong>{{ book.isbn }}</p>
+            </div>
+        </div>
+    </div>
+</div>

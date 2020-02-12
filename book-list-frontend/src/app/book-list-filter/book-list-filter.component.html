@@ -1,0 +1,19 @@
+<form [formGroup]="filterValues" (ngSubmit)="submit()">
+    <div class="form-group d-flex">
+        <div class="col-md-3">
+            <label for="title">Título</label>
+            <input class="form-control form-control-sm" id="title" formControlName="title">
+        </div>
+        <div class="col-md-3">
+            <label for="author">Autor</label>
+            <input class="form-control form-control-sm" id="author" formControlName="author">
+        </div>
+        <div class="col-md-3">
+            <label for="isbn">ISBN</label>
+            <input class="form-control form-control-sm" id="isbn" formControlName="isbn">
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary btn-sm">Filtrar</button>
+        </div>
+    </div>
+</form>
